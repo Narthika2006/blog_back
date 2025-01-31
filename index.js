@@ -24,7 +24,7 @@ const transporter = nodemailer.createTransport({
     },
   });
 
-mongoose.connect('mongodb://127.0.0.1:27017/Main_Blog', {
+mongoose.connect('mongodb+srv://Narthika2006:Narthika2006@narthika.pknmv.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => console.log('Connected to MongoDB'))
